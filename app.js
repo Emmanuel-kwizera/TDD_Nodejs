@@ -2,8 +2,8 @@ import express from 'express'
 
 const app = express()
 
-app.get('/test', (req, res) => {
-    res.send("1 test")
+app.get('/users', (req, res) => {
+    
 })
 
 export default app
