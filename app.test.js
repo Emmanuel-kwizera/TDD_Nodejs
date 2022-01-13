@@ -16,6 +16,5 @@ describe("POST /users", () =>{
     })
 
     describe("when username and password is missing", () => {
-
     })
 })
