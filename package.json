@@ -1,0 +1,27 @@
+{
+  "name": "tdd_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  ""
+  "dependencies": {
+    "express": "^4.17.2",
+    "jest": "^27.4.7",
+    "supertest": "^6.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emmanuel-kwizera/TDD_Nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emmanuel-kwizera/TDD_Nodejs/issues"
+  },
+  "homepage": "https://github.com/Emmanuel-kwizera/TDD_Nodejs#readme"
+}

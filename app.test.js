@@ -18,6 +18,7 @@ describe("POST /users", () =>{
                 username: "username",
                 password: "password"       
             })
+            expect(response.headers['content-type']).toEqual(expect.stringContaining("json"))
         })
             
     })
