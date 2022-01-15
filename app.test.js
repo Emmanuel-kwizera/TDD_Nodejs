@@ -5,8 +5,8 @@ import { describe } from 'yargs'
 import app from "./app"
 
 describe("POST /users", () =>{
-    describe("given username and password", async () => {
-        test('should respond with a 200 status code', () => {
+    describe("given username and password", () => {
+        test('should respond with a 200 status code', async () => {
             const response = await request(app).post("/users").send({
                 username: "username",
                 password: "password"       
