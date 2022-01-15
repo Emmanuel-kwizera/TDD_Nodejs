@@ -14,7 +14,10 @@ describe("POST /users", () =>{
             expect(response.statusCode).toBe(200)
         })    
         test('should specify json in the content type header', async () => {
-            
+            const response = await request(app).post("/users").send({
+                username: "username",
+                password: "password"       
+            })
         })
             
     })
