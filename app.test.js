@@ -13,7 +13,7 @@ describe("POST /users", () =>{
             })
             expect(response.statusCode).toBe(200)
         })    
-        test('should specify json in the content type header', () => {
+        test('should specify json in the content type header', async () => {
             
         })
             
