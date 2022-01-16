@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "type":"module",
+  "type": "module",
   "dependencies": {
     "express": "^4.17.2",
     "jest": "^27.4.7",
+    "mysql2": "^2.3.3",
     "supertest": "^6.2.1"
   },
   "devDependencies": {},
