@@ -15,4 +15,14 @@ export async function getUser(username) {
     )
   
     return rows[0]
+}
+
+export async function createUser(username, password) {
+    const { insertId } = await connection.promise().query(
+      `INSERT INTO users (username, password) 
+        VALUES (?, ?)`,
+      [username, password]
+    )
+  
+    return insertId
   }
